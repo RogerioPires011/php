@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <meta charset="UTF-8" />
+    <title>Idade</title>
+    <style>
+        h2{
+                  font: 16pt Arial;
+                  color: #8B0000;
+                  font-weight: bold;
+      }
+      body{
+          background-color:#1C1C1C;
+      }
+     </style>
+</head>
+
+<body>
+    <div>
+        <form method="get" action="idade.php">
+            Nome:<input type="text" name="nome" /><br />
+            Ano de Nascimento: <input type="number" name="ano" /><br />
+            <fieldset><legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masc" value="Homem" checked />
+            <label for="masc">Masculino</label><br />
+            <input type="radio" name="sexo" id="fem"  value="Mulher" />
+            <label for="fem">Feminino</label>
+            </fieldset><br />
+            <input type="submit" value="Enviar" />
+        </form>
+    </div>
+</body>
+
+</html>
