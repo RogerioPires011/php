@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="_css/estilo.css" />
+    <meta charset="UTF-8" />
+    <title>switch</title>
+    <style>
+        h2{
+              font: 16pt Arial;
+              color: #8B0000;
+              font-weight: bold;
+  }
+  body{
+      background-color:#1C1C1C;
+  }
+ </style>
+</head>
+
+<body>
+    <div>
+        <form method="get" action="switch.php">
+            Numero: <input type="number" name="num" /><br />
+            <fieldset>
+                <legend>Operacao</legend>
+                <input type="radio" name="oper" id="dobro" value="1" checked />
+                <label for="dobro">Dobro</label>
+                <input type="radio" name="oper" id="cubo" value="2"/>
+                <label for="cubo">Cubo</label>
+                <input type="radio" name="oper" id="raiz" value="3"/>
+                <label for="raiz">Raiz Quadrada</label>
+
+            </fieldset>
+            <input type="submit" value="Calcular"/>
+        </form>
+    </div>
+</body>
+
+</html>
