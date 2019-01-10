@@ -33,8 +33,8 @@
 <div>
     <?php
       echo"<span class='texto'> $txt</span> ";
-    ?>
-    <a href="cores.html"> <input type="submit" value="Voltar"/>  </a>
+    ?> 
+   <a href="cores.html"> <input type="submit" value="Voltar"/>  </a>
 </div>
 </body>
 </html>

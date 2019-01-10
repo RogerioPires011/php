@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="_css/estilo.css"/>
+    <meta charset="UTF-8"/>
+    <title>Contagem</title>
+    <style>
+        h2{
+              font: 16pt Arial;
+              color: #8B0000;
+              font-weight: bold;
+  }
+  body{
+      background-color:#1C1C1C;
+  }
+ </style>
+</head>
+<body>
+<div>
+        <form method="get" action="while.php">
+                <fieldset>
+                    <legend>Contagem</legend>
+                        <label for="iInicio">Inicio: </label><input type="number" min="0" max="100" id="iInicio" name="nInicio" value="0" /><br/>
+                        <label for="iFim">Final: </label><input type="number" min="0" max="100" id="iFim" name="nFim" value="0"/><br/>
+                            <label for="iSalto">Saltar de: </label>
+                            <select id="iSalto" name="nSalto">
+                            <option value="1">1</option>;
+                                <option value="2">2</option>;
+                                <option value="5">5</option>;
+                                <option value="10">10</option>;
+                            </select><br/>
+                            <input type="submit" value="Contar" class="botao" /> 
+                    </fieldset>   
+                </form>
+
+</div>
+</body>
+</html>
